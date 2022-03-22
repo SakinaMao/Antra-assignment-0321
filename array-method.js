@@ -20,7 +20,7 @@ Array.prototype.filter = function (cb) {
   return result;
 };
 
-console.log(arrr1.myfilter((item) => item > 3));
+console.log(arrr1.filter((item) => item > 3));
 
 //Array.some
 Array.prototype.some = function (cb) {
